@@ -1,24 +1,27 @@
 require("mason-null-ls").setup({
-    ensure_installed = {
+  ensure_installed = {
     -- For Golang
-        "gofumpt",
-        "goimports-reviser",
-        "golines",
-        "delve",
-        "gomodifytags",
-        "gotests",
-        "impl",
-        "iferr",
+    "gofumpt",
+    "goimports-reviser",
+    "golines",
+    "delve",
+    "gomodifytags",
+    "gotests",
+    "impl",
+    "iferr",
 
-        -- Typescript
-        "eslint-lsp",
-        "prettier",
+    -- Typescript
+    "eslint-lsp",
+    "prettier",
 
-        -- SQL
-        "sqlfmt",
-        "sql-formatter",
+    -- SQL
+    "sqlfmt",
+    "sql-formatter",
 
-        -- Lua
-        "stylua",
-  }
+    -- Lua
+    "stylua",
+
+    -- Nginx LSP
+    "nginx-language-server",
+  },
 })
