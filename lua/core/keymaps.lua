@@ -17,3 +17,5 @@ end)
 keymap.set("n", "<C-Right>", ":bnext<CR>")
 keymap.set("n", "<C-Left>", ":bprevious<CR>")
 keymap.set("n", "<leader>x", ":bdelete<CR>")
+
+keymap.set("n", "<A-h>", ":ToggleTerm<CR>")
