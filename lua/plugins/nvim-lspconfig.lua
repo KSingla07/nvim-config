@@ -28,6 +28,7 @@ return {
         "dockerls",
         "bashls",
         "yamlls",
+        "jsonls",
       },
     })
 
@@ -90,5 +91,6 @@ return {
     lspconfig.dockerls.setup({})
     lspconfig.bashls.setup({})
     lspconfig.nginx_language_server.setup({})
+    lspconfig.jsonls.setup({})
   end,
 }
