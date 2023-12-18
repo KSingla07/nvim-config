@@ -25,6 +25,7 @@ return {
       "sql",
       "xml",
       "bash",
+      "csv",
     },
   },
   config = function(_, opts)
